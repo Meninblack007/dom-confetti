@@ -53,6 +53,7 @@ function updateFetti(fetti, progress, dragFriction, decay) {
 
   fetti.element.style.visibility = "visible";
   fetti.element.style.transform = transform;
+  fetti.element.style.webkitTransform = transform;
   fetti.element.style.opacity = 1 - progress;
 
   /* eslint-enable */
